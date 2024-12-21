@@ -12,19 +12,6 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: "/insights/vitals.js",
-        destination:
-          "https://cdn.vercel-insights.com/v1/speed-insights/script.js",
-      },
-      {
-        source: "/insights/events.js",
-        destination: "https://cdn.vercel-insights.com/v1/script.js",
-      },
-    ];
-  },
 };
 
 export default config;
