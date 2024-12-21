@@ -8,6 +8,8 @@
 - [x] Set up a databse (vercel Postgres)
 - [x] Attach databse to UI
 - [x] Add authentication (w/ Clerk)
+- [ ] Add "taint" (server only)
+- [ ] Use Next Image component
 - [ ] Add image upload
 - [ ] Error management (w/ Sentry)
 - [ ] Routing/image page (parallel route)
